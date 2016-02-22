@@ -1,0 +1,10 @@
+#ifndef GETCOUNTOFCONFLICTSINVERTEXERRORS_H_INCLUDED
+#define GETCOUNTOFCONFLICTSINVERTEXERRORS_H_INCLUDED
+
+enum class GetCountOfConflictsInVertexErrors
+{
+    None,
+    IncorrectVertex,
+    IncorrectColor
+};
+#endif // GETCOUNTOFCONFLICTSINVERTEXERRORS_H_INCLUDED
