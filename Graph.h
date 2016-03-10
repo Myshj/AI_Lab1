@@ -45,6 +45,8 @@ class Graph
             }
 
             vertexColors[vertexId] = newColor;
+            
+            return SetColorErrors::None;
         }
 
         /*
