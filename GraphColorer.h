@@ -110,6 +110,8 @@ class GraphColorer
         }
 
         std::cout << currentIteration << std::endl;
+        
+        return GraphColoringErrors::None;
     }
 
     protected:
